@@ -53,15 +53,3 @@ st.markdown("2. **_Supply_**")
 st.markdown("3. **_Staking_**")
 st.markdown("4. **_Development_**")
 
-
-# In[13]:
-
-
-st.sidebar.markdown("Created by Adrià Parcerisas")
-
-
-# In[ ]:
-
-
-
-
