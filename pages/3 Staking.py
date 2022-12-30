@@ -70,9 +70,9 @@ price,
 stake_txs,
 users,
 volume,
-sum(stake_txs) over (order by a.date) as cum_txs,
-sum(users) over (order by a.date) as cum_users,
-sum(volume) over (order by a.date) as cum_volume
+sum(stake_txs) over (partition by type order by a.date) as cum_txs,
+sum(users) over (partition by type order by a.date) as cum_users,
+sum(volume) over (partition by type order by a.date) as cum_volume
 from main a 
   join luna_price b on a.date=b.date
 """
