@@ -1,0 +1,7 @@
+altair
+pandas
+streamlit
+watchdog
+shroomdk
+seaborn
+plotly
