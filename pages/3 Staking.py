@@ -20,7 +20,7 @@ sdk = ShroomDK("7bfe27b2-e726-4d8d-b519-03abc6447728")
 # In[83]:
 
 
-st.title('Activity on Terra')
+st.title('Staking on Terra')
 
 
 # In[84]:
