@@ -15,6 +15,8 @@ import matplotlib.ticker as ticker
 import numpy as np
 import plotly.express as px
 sdk = ShroomDK("7bfe27b2-e726-4d8d-b519-03abc6447728")
+st.cache(suppress_st_warning=True)
+
 
 
 # In[83]:
